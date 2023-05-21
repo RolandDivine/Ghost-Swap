@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gasless Layer 2 Uniswap-like Frontend</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add your custom styles here */
+    </style>
+</head>
+<body>
+    <h1>Gasless Layer 2 Uniswap-like Frontend</h1>
+
+    <h2>Swap Tokens</h2>
+
+    <label for="tokenIn">Token In:</label>
+    <select id="tokenIn">
+        <!-- Populate with available tokens -->
+        <option value="token1">Token 1</option>
+        <option value="token2">Token 2</option>
+        <!-- Add more options as needed -->
+    </select>
+
+    <label for="amountIn">Amount In:</label>
+    <input type="text" id="amountIn" />
+
+    <label for="tokenOut">Token Out:</label>
+    <select id="tokenOut">
+        <!-- Populate with available tokens -->
+        <option value="token1">Token 1</option>
+        <option value="token2">Token 2</option>
+        <!-- Add more options as needed -->
+    </select>
+
+    <label for="amountOutMin">Amount Out Min:</label>
+    <input type="text" id="amountOutMin" />
+
+    <button id="swapButton">Swap</button>
+
+    <h2>Token Balances</h2>
+
+    <div id="tokenBalances">
+        <!-- Display token balances dynamically -->
+    </div>
+
+    <script>
+        // Add your JavaScript code here to interact with the Gasless Layer 2 contracts
+        // Use Web3.js or ethers.js to connect to Ethereum network and call contract functions
+        // Update the DOM dynamically with token balances, transaction status, etc.
+    </script>
+</body>
+</html>
