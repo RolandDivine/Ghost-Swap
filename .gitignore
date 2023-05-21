@@ -163,3 +163,4 @@ Thumbs.db
 # Ignore npm and yarn files
 package-lock.json
 yarn.lock
+secrets.json
