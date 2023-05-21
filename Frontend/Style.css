@@ -1,0 +1,47 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Form Styles */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+select, input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Token Balances Styles */
+#tokenBalances {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.tokenBalance {
+    margin-bottom: 5px;
+}
+
+/* Add more custom styles as needed */
