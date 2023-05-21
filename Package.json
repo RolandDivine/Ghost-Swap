@@ -1,0 +1,21 @@
+{
+  "name": "gasless-layer2",
+  "version": "1.0.0",
+  "description": "Gasless Layer 2 solution",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "clean": "hardhat clean"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethers": "^5.5.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat": "^2.0.1",
+    "hardhat-typechain": "^2.0.0"
+  }
+}
