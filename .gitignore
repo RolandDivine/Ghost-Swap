@@ -128,3 +128,38 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore build and compiled artifacts
+node_modules/
+dist/
+.cache/
+build/
+
+# Ignore local development files
+.env
+.env.local
+.env.development.local
+.env.test.local
+
+# Ignore Hardhat artifacts
+artifacts/
+.cache/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore editor and IDE specific files
+.vscode/
+.idea/
+*.iml
+*.swp
+*~
+*.log
+
+# Ignore OS and system files
+.DS_Store
+Thumbs.db
+
+# Ignore npm and yarn files
+package-lock.json
+yarn.lock
